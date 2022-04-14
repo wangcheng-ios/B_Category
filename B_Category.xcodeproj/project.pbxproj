@@ -17,6 +17,10 @@
 		01C31D492805601D00DB4605 /* B_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C31D482805601D00DB4605 /* B_CategoryTests.m */; };
 		01C31D532805601D00DB4605 /* B_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C31D522805601D00DB4605 /* B_CategoryUITests.m */; };
 		01C31D552805601D00DB4605 /* B_CategoryUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C31D542805601D00DB4605 /* B_CategoryUITestsLaunchTests.m */; };
+		01C31D6A2806715800DB4605 /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C31D682806715800DB4605 /* CTMediator+B.m */; };
+		2E3645E1C0D060AE25A60404 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F0C311A2A9C56C074E2407 /* DemoViewController.swift */; };
+		3AF46D3AD7B319C50509C6DE /* Pods_B_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405D04519F1E1DB69B60B4E4 /* Pods_B_Category.framework */; };
+		534B067996A1214CC61E0EDC /* B_Category_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB3B297C36557F1D4B72F2 /* B_Category_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,15 @@
 		01C31D4E2805601D00DB4605 /* B_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = B_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C31D522805601D00DB4605 /* B_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_CategoryUITests.m; sourceTree = "<group>"; };
 		01C31D542805601D00DB4605 /* B_CategoryUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_CategoryUITestsLaunchTests.m; sourceTree = "<group>"; };
+		01C31D682806715800DB4605 /* CTMediator+B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+B.m"; path = "Source/Target/CTMediator+B.m"; sourceTree = "<group>"; };
+		01C31D692806715800DB4605 /* CTMediator+B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+B.h"; path = "Source/Target/CTMediator+B.h"; sourceTree = "<group>"; };
+		0779981ED42324E7F9C7B9BA /* B_Category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = B_Category.podspec; path = ../B_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0DEB3B297C36557F1D4B72F2 /* B_Category_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = B_Category_Extension.swift; path = Extension/B_Category_Extension.swift; sourceTree = "<group>"; };
+		405D04519F1E1DB69B60B4E4 /* Pods_B_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_B_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A02649D8D0E135D40D18C0 /* Pods-B_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B_Category.debug.xcconfig"; path = "Target Support Files/Pods-B_Category/Pods-B_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		6DA1CE07B6B95FC359486CC8 /* B_Category_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = B_Category_Extension.podspec; path = ../B_Category_Extension.podspec; sourceTree = "<group>"; };
+		9BBBDD48A65AB249D9A69CA1 /* Pods-B_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B_Category.release.xcconfig"; path = "Target Support Files/Pods-B_Category/Pods-B_Category.release.xcconfig"; sourceTree = "<group>"; };
+		C7F0C311A2A9C56C074E2407 /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF46D3AD7B319C50509C6DE /* Pods_B_Category.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,8 @@
 				01C31D472805601D00DB4605 /* B_CategoryTests */,
 				01C31D512805601D00DB4605 /* B_CategoryUITests */,
 				01C31D2A2805601C00DB4605 /* Products */,
+				7B7FC5BCB7EDFCA6A4C9AB59 /* Pods */,
+				2362CFD468229F4ACE8BB13A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +131,10 @@
 				01C31D3A2805601D00DB4605 /* LaunchScreen.storyboard */,
 				01C31D3D2805601D00DB4605 /* Info.plist */,
 				01C31D3E2805601D00DB4605 /* main.m */,
+				2ED9C7FAC0AE1D339AA1E7C5 /* Source */,
+				5AF000ADE6B8315ED78A40DA /* Extension */,
+				0779981ED42324E7F9C7B9BA /* B_Category.podspec */,
+				6DA1CE07B6B95FC359486CC8 /* B_Category_Extension.podspec */,
 			);
 			path = B_Category;
 			sourceTree = "<group>";
@@ -136,6 +156,49 @@
 			path = B_CategoryUITests;
 			sourceTree = "<group>";
 		};
+		2362CFD468229F4ACE8BB13A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405D04519F1E1DB69B60B4E4 /* Pods_B_Category.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		264847671BEA38463D6C6716 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				01C31D692806715800DB4605 /* CTMediator+B.h */,
+				01C31D682806715800DB4605 /* CTMediator+B.m */,
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
+		2ED9C7FAC0AE1D339AA1E7C5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				264847671BEA38463D6C6716 /* Target */,
+				C7F0C311A2A9C56C074E2407 /* DemoViewController.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5AF000ADE6B8315ED78A40DA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DEB3B297C36557F1D4B72F2 /* B_Category_Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		7B7FC5BCB7EDFCA6A4C9AB59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64A02649D8D0E135D40D18C0 /* Pods-B_Category.debug.xcconfig */,
+				9BBBDD48A65AB249D9A69CA1 /* Pods-B_Category.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01C31D582805601D00DB4605 /* Build configuration list for PBXNativeTarget "B_Category" */;
 			buildPhases = (
+				4A727C34ADD2D0D1B8B963FD /* [CP] Check Pods Manifest.lock */,
 				01C31D252805601C00DB4605 /* Sources */,
 				01C31D262805601C00DB4605 /* Frameworks */,
 				01C31D272805601C00DB4605 /* Resources */,
+				3C2253810DADADF290A60569 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +326,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C2253810DADADF290A60569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-B_Category/Pods-B_Category-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-B_Category/Pods-B_Category-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-B_Category/Pods-B_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A727C34ADD2D0D1B8B963FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-B_Category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01C31D252805601C00DB4605 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +377,9 @@
 				01C31D2E2805601C00DB4605 /* AppDelegate.m in Sources */,
 				01C31D3F2805601D00DB4605 /* main.m in Sources */,
 				01C31D312805601C00DB4605 /* SceneDelegate.m in Sources */,
+				2E3645E1C0D060AE25A60404 /* DemoViewController.swift in Sources */,
+				534B067996A1214CC61E0EDC /* B_Category_Extension.swift in Sources */,
+				01C31D6A2806715800DB4605 /* CTMediator+B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +547,7 @@
 		};
 		01C31D592805601D00DB4605 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A02649D8D0E135D40D18C0 /* Pods-B_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,12 +569,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.suzhougoldmantis.A.B-Category";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		01C31D5A2805601D00DB4605 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBBDD48A65AB249D9A69CA1 /* Pods-B_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -485,6 +598,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.suzhougoldmantis.A.B-Category";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
